@@ -1,0 +1,242 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+body{
+    /*background-image: url("pozadi.jpg");
+    */
+    background-image: linear-gradient(180deg, rgb(110, 17, 32), rgb(250, 33, 60), rgb(189, 118, 37));
+    background-color: rgb(100, 10, 10);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    margin: 15px;
+    text-align: center;
+
+    
+
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+
+.hlavni_proklik{
+    background-color: rgba(54, 156, 122, 0.699);
+    backdrop-filter:saturate(180%) blur(20px);
+    border-radius: 25px;
+}
+
+.hlavni_proklik a{
+    text-decoration: none;
+    color: black;
+}
+
+.nadpis{
+    display: flex;
+    background-color: rgba(107, 179, 155, 0.699);
+    backdrop-filter:saturate(180%) blur(20px);
+    border-radius: 25px;
+}
+
+.nadpis img{
+    width: 109px;
+    height: 109px;
+    border-radius: 25px;
+}
+
+.nadpis h1{
+    padding-left: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.hlavni_proklik ul{
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    padding:0px;
+}
+
+.hlavni_proklik li{
+    padding: 10px 0px;
+    
+
+}
+
+.hlavni_proklik li a{
+    font-size: 28px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    background-color: rgba(107, 179, 155, 0.699);
+    border-radius: 25px;
+    padding: 5px 50px;
+    display:block;
+    margin: auto 15% auto 15%;
+}
+
+.hlavni_proklik li a:hover{
+    background-color: rgba(78, 226, 177, 0.699);
+
+}
+
+.kontent{
+    background-color: rgba(207, 207, 207, 0.801);
+    border-radius: 25px;
+    backdrop-filter:saturate(180%) blur(20px);
+    padding: 5%;
+}
+
+.uvod{
+    background-color:rgba(255, 255, 255, 0.8) ;
+    backdrop-filter:saturate(180%) blur(20px);
+    border-radius: 25px;
+    display: inline-block;
+
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+}
+
+.uvod p{
+    margin: 5px;
+    font-size: 20px;
+    text-align:left;
+    
+    
+}
+
+/* .obrazek1{
+    padding: 20px 5px 0px 20px;
+    margin-right: 5px;
+
+} */
+
+.obrazek1 img{
+    float: left;
+    width: 50%;
+    height: 50%;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+
+.adresa{
+    background-color:rgba(255, 255, 255, 0.8) ;
+    backdrop-filter:saturate(180%) blur(20px);
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.adresa h2{
+    padding-top: 5px;
+    margin: 10px 25px 0px 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.adresa p{
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    margin-left: 15px;
+}
+
+.adresa table{
+    margin: 5px 10px 10px 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.adresa table td{
+    padding: 2px 10px;
+}
+
+.mapa iframe{
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.mapa{
+    text-align: center;
+    margin: 20px;
+
+}
+
+
+
+.footer{
+    text-align: center;
+    background-color: rgba(207, 207, 207, 0.801);
+    backdrop-filter:saturate(180%) blur(20px);
+    border-radius: 25px;
+    margin: 15px 25px;
+    max-width: 1350px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+
+
+.socialni .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 10px;
+    transition: all .2s ease-in-out;
+}
+.socialni .fa:hover {
+    transform: scale(1.1);
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background-image: linear-gradient(180deg, rgb(161, 16, 135), rgb(224, 66, 65), rgb(237, 185, 76));
+    color: white;
+}
