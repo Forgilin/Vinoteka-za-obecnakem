@@ -4,15 +4,13 @@ html {
 
 
 body{
-    /*background-image: url("pozadi.jpg");
-    */
     background-image: linear-gradient(180deg, rgb(110, 17, 32), rgb(250, 33, 60), rgb(189, 118, 37));
     background-color: rgb(100, 10, 10);
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
     font-family: 'Quicksand', sans-serif;
-    margin: 15px;
+    margin: 4%;
     text-align: center;
 
     
@@ -56,6 +54,7 @@ body{
     background-color: rgba(54, 156, 122, 0.699);
     backdrop-filter:saturate(180%) blur(20px);
     border-radius: 25px;
+    margin-bottom: 4%;
 }
 
 .hlavni_proklik a{
@@ -68,6 +67,11 @@ body{
     background-color: rgba(107, 179, 155, 0.699);
     backdrop-filter:saturate(180%) blur(20px);
     border-radius: 25px;
+    transition: all .2s ease-in-out;
+}
+
+.nadpis:hover{
+    background-color: rgba(78, 226, 177, 0.699);
 }
 
 .nadpis img{
@@ -88,10 +92,11 @@ body{
     overflow: hidden;
     text-align: center;
     padding:0px;
+    margin: 5px;
 }
 
 .hlavni_proklik li{
-    padding: 10px 0px;
+    margin: 15px;
     
 
 }
@@ -106,6 +111,7 @@ body{
     padding: 5px 50px;
     display:block;
     margin: auto 15% auto 15%;
+    transition: all .2s ease-in-out;
 }
 
 .hlavni_proklik li a:hover{
@@ -117,7 +123,7 @@ body{
     background-color: rgba(207, 207, 207, 0.801);
     border-radius: 25px;
     backdrop-filter:saturate(180%) blur(20px);
-    padding: 5%;
+    padding-bottom: 8px;
 }
 
 .uvod{
@@ -125,6 +131,7 @@ body{
     backdrop-filter:saturate(180%) blur(20px);
     border-radius: 25px;
     display: inline-block;
+    margin: 8px;
 
     -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1s; /* Firefox < 16 */
@@ -144,8 +151,7 @@ body{
 
 .obrazek1 img{
     float: left;
-    width: 50%;
-    height: 50%;
+    width: 165px;
     border-radius: 25px;
     margin: 5%;
 }
@@ -157,6 +163,7 @@ body{
     border-radius: 25px;
     padding: 5px;
     margin-top: 15px;
+    margin: 8px;
 
     -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1s; /* Firefox < 16 */
@@ -197,13 +204,20 @@ body{
     backdrop-filter:saturate(180%) blur(20px);
     border-radius: 25px;
     padding: 5px;
-    margin-top: 15px;
+    margin: 15px 8px 8px 8px;
 
     -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1s; /* Firefox < 16 */
         -ms-animation: fadein 1s; /* Internet Explorer */
          -o-animation: fadein 1s; /* Opera < 12.1 */
             animation: fadein 1s;
+}
+
+.oteviraci img{
+    display: hidden;
+    max-width: 270px;
+    border-radius: 25px;
+    padding-top: 10px;
 }
 
 .oteviraci h2{
@@ -241,7 +255,6 @@ body{
     backdrop-filter:saturate(180%) blur(20px);
     border-radius: 25px;
     margin: 15px 25px;
-    max-width: 1350px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto; 
@@ -272,4 +285,115 @@ body{
 .fa-instagram {
     background-image: linear-gradient(180deg, rgb(161, 16, 135), rgb(224, 66, 65), rgb(237, 185, 76));
     color: white;
+}
+
+
+
+@media screen and (min-width:700px) {
+    
+    .hlavni_proklik{
+        max-width: 1350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .hlavni_proklik li a{
+        margin: auto 35% auto 35%;
+    }
+
+    .kontent{
+        max-width: 1350px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+    .obrazek1 img{
+        width: 250px;
+        margin: 20px;
+    }
+
+    .uvod{
+        margin: 30px;
+    }
+
+    .adresa{
+        margin: 30px;
+    }
+
+    .oteviraci{
+        margin: 30px 30px 20px 30px;
+        display: flex;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+
+    .uvod p{
+        margin: 20px;
+    }
+
+    body{
+        margin: 20px;
+    }
+
+    .hlavni_proklik li{
+        display: inline;
+        margin: 15px;
+        padding: 20px;
+  
+        
+    }
+
+    .footer{
+        max-width: 1350px;
+    }
+
+    .oteviraci img{
+        height: 180px;
+        width: 270px;
+        margin: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .tabulka{
+        margin: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    
+}
+
+@media screen and (min-width:1400px) {
+    .adresa{
+        width: 600px;
+    }
+    
+    .oteviraci{
+        width: 600px;
+    }
+    
+    .lokace{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    
+    .oteviraci img{
+        height: 180px;
+        width: 270px;
+        margin: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .tabulka{
+        margin: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
 }
