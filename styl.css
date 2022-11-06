@@ -288,6 +288,12 @@ body{
 }
 
 
+@media screen and (min-width:530px) {
+    .nadpis img{
+        margin-right: 10px;
+    }
+}
+
 
 @media screen and (min-width:700px) {
     
@@ -300,6 +306,7 @@ body{
 
     .hlavni_proklik li a{
         margin: auto 35% auto 35%;
+
     }
 
     .kontent{
@@ -320,8 +327,6 @@ body{
 
     .adresa{
         margin: 30px;
-        width: 645px;
-        padding: 0 7.5px;
     }
 
     .oteviraci{
@@ -329,9 +334,6 @@ body{
         display: flex;
         padding-left: auto;
         padding-right: auto;
-        padding:0 7.5px;
-        height: 425px;
-        width: 645px;
     }
 
 
@@ -347,8 +349,6 @@ body{
         display: inline;
         margin: 15px;
         padding: 20px;
-  
-        
     }
 
     .footer{
@@ -372,21 +372,42 @@ body{
     
 }
 
+@media screen and (min-width:930px) {
+    .hlavni_proklik ul{
+        padding: 10px;
+    }
+
+    .hlavni_proklik li{
+        display: inline;
+    }
+
+    .hlavni_proklik li a{
+        display: inline;
+        margin: 5px;
+    }
+
+}
+
+
 @media screen and (min-width:1400px) {
     .adresa{
-        width: 600px;
+        width: 615px;
+        padding: 0;
     }
     
     .oteviraci{
-        width: 600px;
+        padding:0;
+        height: 425px;
+        width: 615px;
     }
     
     .lokace{
         display: flex;
         flex-wrap: wrap;
         margin: 0;
+        justify-content: center;
+        align-items: center;
     }
-
     
     .oteviraci img{
         height: 180px;
