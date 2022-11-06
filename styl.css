@@ -320,6 +320,8 @@ body{
 
     .adresa{
         margin: 30px;
+        width: 645px;
+        padding: 0 7.5px;
     }
 
     .oteviraci{
@@ -327,8 +329,9 @@ body{
         display: flex;
         padding-left: auto;
         padding-right: auto;
-        padding: 0;
+        padding:0 7.5px;
         height: 425px;
+        width: 645px;
     }
 
 
@@ -355,13 +358,13 @@ body{
     .oteviraci img{
         height: 180px;
         width: 270px;
-        margin: 15px;
+        margin: 15px 15px 30px 30px;
         margin-top: auto;
         margin-bottom: auto;
     }
 
     .tabulka{
-        margin: 15px;
+        margin: 20px 15px;
         margin-top: auto;
         margin-bottom: auto;
     }
