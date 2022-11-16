@@ -288,6 +288,31 @@ body{
 }
 
 
+/* O nas */
+
+.pole1{
+    background-color:rgba(255, 255, 255, 0.8) ;
+    backdrop-filter:saturate(180%) blur(20px);
+    border-radius: 25px;
+    display: inline-block;
+    margin: 8px;
+
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+}
+
+.pole1 p{
+    margin: 5%;
+    font-size: 20px;
+    text-align:left;
+}
+
+
+
+
 @media screen and (min-width:530px) {
     .nadpis img{
         margin-right: 10px;
@@ -316,6 +341,7 @@ body{
         padding-bottom: 10px;
         margin-bottom: 30px;
     }
+    
     .obrazek1 img{
         width: 250px;
         margin: 20px;
@@ -335,7 +361,6 @@ body{
 
     .oteviraci{
         justify-content: center;
-
         display: flex;
         margin: auto;
     }
@@ -373,6 +398,14 @@ body{
         margin-bottom: auto;
     }
 
+    /* O nas */
+    .pole1{
+        margin: 30px 30px 0 30px;
+    }
+
+    .pole1 p{
+        margin: 20px;
+    }
     
 }
 
@@ -425,5 +458,12 @@ body{
         margin: 20px;
         margin-top: auto;
         margin-bottom: auto;
+    }
+
+    /* O nas */
+    .pole1{
+        padding:0;
+        height: 415px;
+        width: 615px;
     }
 }
