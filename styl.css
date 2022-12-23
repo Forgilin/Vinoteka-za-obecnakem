@@ -246,26 +246,407 @@ strong{
 }
 
 /* Limitovaná edice */
-#obrazek1{
+/* Obrázek vlevo nahoře */
+.obrazek2 img{
     float: left;
     width: 50%;
     border-radius: 25px 0px 25px 0px;
     margin:0px 5% 0px 0px;
 }
 
-@media screen and (min-width:570px){
-    #obrazek1{
+@media screen and (min-width:658px) {
+    .obrazek2 img{
         margin: 0px 20px 0px 0px;
         border-radius: 25px 0px 0px 25px;
+        width: 50%;
     }
 
 }
 
-@media screen and (min-width:650px){
-    #obrazek1{
-        width: 30%;
+@media screen and (min-width:700px) {
+    .obrazek2 img{
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-width:800px) {
+    .obrazek2 img{
+        width: 35%;
     }
 }
+
+@media screen and (min-width:930px){
+    .obrazek2 img{
+        width: 50%;
+        border-radius: 25px 0px 25px 0px;
+        margin:0px 5% 0px 0px;
+    }
+}
+
+@media screen and (min-width:1270px){
+    .obrazek2 img{
+        border-radius: 25px 0 0 25px;
+        width: 50%;
+        margin: 0px 20px 0px 0px;
+        padding: 0;
+    }  
+}
+
+/* Obrázek v pravo nahoře  */
+
+.obrazek3 img{
+    float: right;
+    width: 50%;
+    border-radius: 0px 25px 0px 25px;
+    margin:0px 0px 0px 5%;
+    padding: 0;
+}
+
+@media screen and (min-width:508px) {
+    .obrazek3 img{
+        margin: 0px 0px 0px 20px;
+        border-radius: 0px 25px 25px 0px;
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width:700px) {
+    .obrazek3 img{
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-width:800px) {
+    .obrazek3 img{
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:930px){
+    .obrazek3 img{
+        width: 50%;
+        border-radius: 0px 25px 0px 25px;
+        margin:0px 0px 0px 5%;
+    }
+}
+
+@media screen and (min-width:1270px){
+    .obrazek3 img{
+        border-radius: 0 25px 25px 0;
+        width: 50%;
+        margin: 0px 0px 0px 20px;
+        padding: 0;
+    }  
+}
+
+/* Obrázek v levo dole  */
+.obrazek4 img{
+    float: right;
+    width: 50%;
+    border-radius: 0px 25px 0px 25px;
+    margin:0px 0px 0px 5%;
+    padding: 0;
+}
+
+@media screen and (min-width:416px) {
+    .obrazek4 img{
+        margin: 0px 0px 0px 20px;
+        border-radius: 0px 25px 25px 0px;
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width:700px) {
+    .obrazek4 img{
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-width:800px) {
+    .obrazek4 img{
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:930px){
+    .obrazek4 img{
+        width: 50%;
+        border-radius: 0 25px 25px 0;
+        margin:0px 0px 0px 5%;
+    }
+}
+
+@media screen and (min-width:1270px){
+    .obrazek4 img{
+        
+        width: 50%;
+        margin: 0px 0px 0px 20px;
+        padding: 0;
+    }  
+}
+
+/* Obrázek v pravo dole  */
+.obrazek5 img{
+    float: left;
+    width: 50%;
+    border-radius: 25px 0px 25px 0px;
+    margin:0px 5% 0px 0px;
+}
+
+@media screen and (min-width:472px) {
+    .obrazek5 img{
+        margin: 0px 20px 0px 0px;
+        border-radius: 25px 0px 0px 25px;
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width:700px) {
+    .obrazek5 img{
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-width:800px) {
+    .obrazek5 img{
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:930px){
+    .obrazek5 img{
+        width: 50%;
+        border-radius: 25px 0 0 25px;
+        margin:0px 5% 0px 0px;
+    }
+}
+
+@media screen and (min-width:1270px){
+    .obrazek5 img{
+        width: 50%;
+        margin: 0px 20px 0px 0px;
+        padding: 0;
+    }  
+}
+
+/* O nás */
+/* Obrázek vlevo nahoře */
+.onas1 img{
+    float: left;
+    width: 50%;
+    border-radius: 25px 0px 25px 0px;
+    margin:0px 5% 0px 0px;
+}
+
+@media screen and (min-width:723px) {
+    .onas1 img{
+        margin: 0px 20px 0px 0px;
+        border-radius: 25px 0px 0px 25px;
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width:750px) {
+    .onas1 img{
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-width:800px) {
+    .onas1 img{
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:930px){
+    .onas1 img{
+        width: 40%;
+        border-radius: 25px 0px 25px 0px;
+        margin:0px 5% 0px 0px;
+    }
+}
+
+@media screen and (min-width:1375px){
+    .onas1 img{
+        border-radius: 25px 0 0 25px;
+        width: 50%;
+        margin: 0px 20px 0px 0px;
+        padding: 0;
+    }  
+}
+
+/* Obrázek v pravo nahoře  */
+
+.onas2 img{
+    float: right;
+    width: 50%;
+    border-radius: 0px 25px 0px 25px;
+    margin:0px 0px 0px 5%;
+    padding: 0;
+}
+
+@media screen and (min-width:620px) {
+    .onas2 img{
+        margin: 0px 0px 0px 20px;
+        border-radius: 0px 25px 25px 0px;
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width:700px) {
+    .onas2 img{
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-width:800px) {
+    .onas2 img{
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:930px){
+    .onas2 img{
+        width: 50%;
+        border-radius: 0px 25px 0px 25px;
+        margin:0px 0px 0px 5%;
+    }
+}
+
+@media screen and (min-width:1227px){
+    .onas2 img{
+        border-radius: 0 25px 25px 0;
+        width: 50%;
+        margin: 0px 0px 0px 20px;
+        padding: 0;
+    }  
+}
+
+/* Obrázek v levo dole  */
+.onas3 img{
+    float: right;
+    width: 50%;
+    border-radius: 0px 25px 0px 25px;
+    margin:0px 0px 0px 5%;
+    padding: 0;
+}
+
+@media screen and (min-width:699px) {
+    .onas3 img{
+        margin: 0px 0px 0px 20px;
+        border-radius: 0px 25px 25px 0px;
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width:700px) {
+    .onas3 img{
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-width:800px) {
+    .onas3 img{
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:930px){
+    .onas3 img{
+        width: 50%;
+        border-radius: 0px 25px 0px 25px;
+        margin:0px 0px 0px 5%;
+    }
+}
+
+@media screen and (min-width:1307px){
+    .onas3 img{
+        border-radius: 0 25px 25px 0;
+        width: 50%;
+        margin: 0px 0px 0px 20px;
+        padding: 0;
+    }  
+}
+
+/* Obrázek v pravo dole  */
+.onas4 img{
+    float: left;
+    width: 50%;
+    border-radius: 25px 0px 25px 0px;
+    margin:0px 5% 0px 0px;
+}
+
+@media screen and (min-width:472px) {
+    .onas4 img{
+        margin: 0px 20px 0px 0px;
+        border-radius: 25px 0px 0px 25px;
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width:700px) {
+    .onas4 img{
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-width:800px) {
+    .onas4 img{
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:930px){
+    .onas4 img{
+        width: 50%;
+        border-radius: 25px 0 0 25px;
+        margin:0px 5% 0px 0px;
+    }
+}
+
+@media screen and (min-width:1270px){
+    .onas4 img{
+        width: 50%;
+        margin: 0px 20px 0px 0px;
+        padding: 0;
+    }  
+}
+
+/* Nabídka */
+
+.nabidka{
+    margin: 10px;
+}
+
+.nabidka table{
+    margin: auto;
+}
+
+.nabidka td{
+    text-align: left;
+    padding: 3px 25px;
+}
+
+.nabidka .cena{
+    text-align: center;
+}
+
+
 
 
 
@@ -461,7 +842,7 @@ strong{
         height: 180px;
         width: 270px;
         border-radius: 25px;
-        margin: 15 auto 0 auto;
+        margin: 15px auto 0 auto;
     }
 
     .tabulka{
@@ -469,14 +850,10 @@ strong{
     }
 
     .obrazek1 img{
-        float: left;
         width: 50%;
         border-radius: 25px 0px 25px 0px;
         margin:0px 5% 0px 0px;
     }
-
-    
-    
     
 }
 
@@ -501,7 +878,6 @@ strong{
 @media screen and (min-width:1166px){
     .obrazek1 img{
         height: 100%;
-        width: 50%;
         margin: 0px 20px 0px 0px;
         padding: 0;
         border-radius: 25px 0px 0px 25px;
@@ -530,7 +906,7 @@ strong{
 
 @supports (-moz-appearance:none) {
     .pole{
-        background-color:rgba(255, 255, 255);
+        background-color:rgba(255, 255, 255, 0.85);
     }
 
     @media screen and (min-width:728px) {
