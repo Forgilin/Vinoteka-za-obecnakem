@@ -47,7 +47,10 @@ body{
     to   { opacity: 1; }
 }
 
-
+strong{
+    text-decoration: none;
+    font-weight: 600;
+}
 
 
 .hlavni_proklik{
@@ -110,7 +113,7 @@ body{
     border-radius: 25px;
     padding: 5px 50px;
     display:block;
-    margin: auto 15% auto 15%;
+    margin: auto 10% auto 10%;
     transition: all .2s ease-in-out;
 }
 
@@ -144,25 +147,25 @@ body{
 }
 
 .pole p{
-    margin: 5%;
+    margin: 3%;
     font-size: 20px;
     text-align:left;
 }
 
 .pole iframe{
     border-radius: 25px;
-    margin: 20px;
     min-height: 300px;
-    max-width: 555px;
+    width: 100%;
+    height: 100%;
 }
 
 
 
 .obrazek1 img{
     float: left;
-    width: 165px;
-    border-radius: 25px;
-    margin: 5%;
+    width: 50%;
+    border-radius: 25px 0px 25px 0px;
+    margin:0px 5% 0px 0px;
 }
 
 
@@ -205,9 +208,8 @@ body{
 }
 
 .oteviraci img{
-    max-width: 270px;
-    border-radius: 25px;
-    padding-top: 10px;
+    max-width: 100%;
+    border-radius: 25px 25px 0px 0px;
 }
 
 .oteviraci h2{
@@ -275,8 +277,16 @@ body{
 
 
 
+/* Optimalizace pro vyšší rozlišení */
 
-
+@media screen and (min-width:420px){
+    .oteviraci img{
+        height: 180px;
+        width: 270px;
+        margin-top: 15px;
+        border-radius: 25px;
+    }
+}
 
 @media screen and (min-width:530px) {
     .nadpis img{
@@ -284,6 +294,14 @@ body{
     }
 }
 
+@media screen and (min-width:677px) {
+    .obrazek1 img{
+        margin: 0px 20px 0px 0px;
+        border-radius: 25px 0px 0px 25px;
+        width: 50%;
+    }
+
+}
 
 @media screen and (min-width:700px) {
     
@@ -307,12 +325,6 @@ body{
         margin-bottom: 30px;
     }
     
-    .obrazek1 img{
-        width: 250px;
-        margin: 20px;
-    }
-
-    
 
     body{
         margin: 20px;
@@ -329,7 +341,6 @@ body{
     }
 
 
-
     .oteviraci{
         margin-top: auto;
         margin-bottom: auto;
@@ -340,24 +351,62 @@ body{
         margin-top: auto;
         margin-bottom: auto;
     }
+   
+}
 
+@media screen and (min-width:728px) {
     .oteviraci{
-        justify-content: center;
+        justify-content: left;
         display: flex;
         margin: auto;
     }
-    
+
     .oteviraci img{
-        height: 180px;
-        width: 270px;
-        margin: 15px 15px 30px 30px;
-        margin-top: auto;
-        margin-bottom: auto;
+        width: 60%;
+        height: 60%;
+        border-radius: 25px 0px 0px 25px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .oteviraci .tabulka{
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width:750px) {
+    .obrazek1 img{
+        width: 40%;
     }
 
 }
 
-@media screen and (min-width:735px){
+@media screen and (min-width:770px){
+    .oteviraci{
+        justify-content: left;
+        display: flex;
+        margin: auto;
+    }
+
+    .oteviraci img{
+        width: 50%;
+        height: 50%;
+        border-radius: 25px 0px 0px 25px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .oteviraci .tabulka{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:850px) {
+    .obrazek1 img{
+        width: 35%;
+    }
+
 }
 
 
@@ -365,8 +414,10 @@ body{
     .pole{
         width: 48%;
         margin: 1%;
+        max-width: 648px;
+        max-height: 486px;
     }
-
+    
     .oteviraci{
         justify-content: center;
         display:inline;
@@ -376,26 +427,58 @@ body{
     .oteviraci img{
         height: 180px;
         width: 270px;
-        margin: 15px 15px 30px 30px;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin-top: 15px;
+        border-radius: 25px;
     }
 
-
+    .obrazek1 img{
+        float: left;
+        width: 50%;
+        border-radius: 25px 0px 25px 0px;
+        margin:0px 5% 0px 0px;
+    }
+    
+    
 }
+
+
 
 @media screen and (min-width:1045px) {
     .hlavni_proklik ul{
         padding: 10px;
     }
-
+    
     .hlavni_proklik li{
         display: inline;
     }
-
+    
     .hlavni_proklik li a{
         display: inline;
         margin: 5px;
     }
+    
+}
 
+@media screen and (min-width:1271px){
+    .obrazek1 img{
+        height: 100%;
+        width: 50%;
+        margin: 0px 20px 0px 0px;
+        padding: 0;
+        border-radius: 25px 0px 0px 25px;
+    }
+
+    .oteviraci{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+    }
+
+    .oteviraci img{
+        width: 50%;
+        height: 50%;
+        margin: auto 3%;
+    }
 }
